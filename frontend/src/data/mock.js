@@ -5,7 +5,7 @@ export const personalInfo = {
   bio: "Salesforce Business Analyst with expertise in Sales Cloud and Service Cloud. Focuses on delivering user-centric CRM solutions. Skilled in client communication, discovery workshops, documentation, and Agile project/sprint planning.",
   email: "kashisharora.er@gmail.com",
   phone: "+91-8290424089",
-  linkedin: "https://linkedin.com/in/kashisharora",
+  linkedin: "https://www.linkedin.com/in/kashish-arora-09ka11",
   resumeUrl: "/resume.pdf",
   calendlyUrl: "https://calendly.com/kashisharora"
 };
@@ -25,7 +25,7 @@ export const skills = {
     "Lucidchart",
     "Figma"
   ],
-  soft: [
+  projectManagement: [
     "Agile Methodologies (Scrum, Kanban)",
     "Requirements Engineering",
     "Stakeholder Management", 
@@ -33,8 +33,11 @@ export const skills = {
     "User Story Writing",
     "Discovery Workshops",
     "Project Documentation",
-    "Client Communication",
-    "AI-Powered Prompt Engineering"
+    "Sprint Planning & Execution",
+    "Risk Management",
+    "Quality Assurance",
+    "Change Management",
+    "Resource Planning"
   ]
 };
 
@@ -44,7 +47,7 @@ export const experience = [
     company: "Cyntexa Labs",
     role: "Business Analyst",
     duration: "March 2024 - Present",
-    location: "Remote",
+    location: "Office",
     achievements: [
       "Leads requirement gathering sessions and discovery workshops for complex Salesforce implementations",
       "Translates business requirements into user stories, process flows, and technical documentation",
@@ -163,56 +166,5 @@ export const services = [
     description: "Train your team on AI tools, prompt engineering, and modern business analysis techniques.",
     features: ["ChatGPT Training", "Prompt Engineering", "AI Workshops", "Custom Solutions"],
     icon: "Brain"
-  }
-];
-
-export const testimonials = [
-  {
-    id: 1,
-    name: "Rajesh Kumar",
-    role: "CTO, FinTech Solutions",
-    company: "TechCorp India",
-    testimonial: "Kashish's expertise in Salesforce FSC implementation was exceptional. The dual portal solution exceeded our expectations and significantly improved our customer experience.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
-  },
-  {
-    id: 2,
-    name: "Priya Sharma",
-    role: "Head of Operations",
-    company: "CloudTech Solutions",
-    testimonial: "Working with Kashish on our Sales Cloud optimization was a game-changer. Her attention to detail and process-driven approach delivered outstanding results.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
-  },
-  {
-    id: 3,
-    name: "Amit Patel",
-    role: "Project Manager",
-    company: "Enterprise Dynamics",
-    testimonial: "Kashish's ability to translate complex business requirements into actionable solutions is remarkable. Highly recommend for any Salesforce project.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
-  }
-];
-
-export const blogPosts = [
-  {
-    id: 1,
-    title: "5 Essential Salesforce Features Every Business Analyst Should Master",
-    excerpt: "Explore the key Salesforce features that can transform your business analysis workflow and improve project outcomes.",
-    date: "2024-12-15",
-    readTime: "5 min read",
-    tags: ["Salesforce", "Business Analysis", "Productivity"],
-    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=200&fit=crop"
-  },
-  {
-    id: 2,
-    title: "AI-Powered Business Analysis: The Future is Here",
-    excerpt: "How ChatGPT and AI tools are revolutionizing requirement gathering, documentation, and stakeholder communication.",
-    date: "2024-12-10",
-    readTime: "7 min read", 
-    tags: ["AI", "ChatGPT", "Business Analysis"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=200&fit=crop"
   }
 ];
