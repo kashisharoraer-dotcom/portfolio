@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, Tag } from 'lucide-react';
-import { blogPosts } from '../data/mock';
+// import { blogPosts } from '../data/mock';
 
 const BlogPost = () => {
   const { id } = useParams();
