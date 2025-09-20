@@ -5,7 +5,7 @@ export const personalInfo = {
   bio: "Salesforce Business Analyst with expertise in Sales Cloud and Service Cloud. Focuses on delivering user-centric CRM solutions. Skilled in client communication, discovery workshops, documentation, and Agile project/sprint planning.",
   email: "kashisharora.er@gmail.com",
   phone: "+91-8290424089",
-  linkedin: "https://www.linkedin.com/in/kashish-arora-09ka11",
+  linkedin: "https://linkedin.com/in/kashisharorasalesforce",
   resumeUrl: "/resume.pdf",
   calendlyUrl: "https://calendly.com/kashisharora"
 };
