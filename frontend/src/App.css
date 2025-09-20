@@ -1,27 +1,29 @@
-/* Dark Theme Foundation - Never Change */
+/* Blue and White Theme with Black Accents */
 :root {
-  /* Dark Theme Base */
-  --bg-primary: rgb(17, 17, 19);
-  --bg-secondary: rgb(26, 28, 30);
-  --bg-tertiary: rgb(38, 40, 42);
+  /* Blue and White Theme Base */
+  --bg-primary: rgb(255, 255, 255);
+  --bg-secondary: rgb(248, 250, 252);
+  --bg-tertiary: rgb(241, 245, 249);
   
   /* Text Hierarchy */
-  --text-primary: rgb(255, 255, 255);
-  --text-secondary: rgb(218, 218, 218);
-  --text-muted: rgb(161, 161, 170);
+  --text-primary: rgb(15, 23, 42);
+  --text-secondary: rgb(51, 65, 85);
+  --text-muted: rgb(100, 116, 139);
   
   /* Border System */
-  --border-primary: rgb(63, 63, 63);
-  --border-subtle: rgba(255, 255, 255, 0.1);
+  --border-primary: rgb(203, 213, 225);
+  --border-subtle: rgba(15, 23, 42, 0.1);
   
-  /* Signature Neon Green */
-  --accent-primary: rgb(218, 255, 1);
-  --accent-hover: rgb(166, 190, 21);
-  --accent-pressed: rgb(134, 155, 16);
-  --accent-bg: rgba(218, 255, 1, 0.1);
+  /* Black and White Accents */
+  --accent-primary: rgb(15, 23, 42);
+  --accent-hover: rgb(30, 41, 59);
+  --accent-pressed: rgb(51, 65, 85);
+  --accent-bg: rgba(15, 23, 42, 0.05);
   
-  /* Secondary Accent */
-  --accent-purple: rgb(127, 74, 142);
+  /* Blue Accents */
+  --accent-blue: rgb(59, 130, 246);
+  --accent-blue-light: rgb(147, 197, 253);
+  --accent-blue-bg: rgba(59, 130, 246, 0.1);
 }
 
 * {
@@ -54,7 +56,7 @@ body {
 .body-sm { font-size: 14px; font-weight: 400; line-height: 1.5; color: var(--text-muted); }
 
 .button-text { font-size: 16px; font-weight: 600; line-height: 1.2; }
-.link-text { font-size: 16px; font-weight: 500; text-decoration: underline; color: var(--accent-primary); }
+.link-text { font-size: 16px; font-weight: 500; text-decoration: underline; color: var(--accent-blue); }
 
 /* Button Components */
 .btn-primary {
@@ -80,7 +82,7 @@ body {
 .btn-primary:hover {
   background: var(--accent-hover);
   transform: translateY(-1px);
-  box-shadow: 0 8px 25px rgba(218, 255, 1, 0.3);
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.15);
 }
 
 .btn-primary:active {
@@ -90,8 +92,8 @@ body {
 
 .btn-secondary {
   background: transparent;
-  color: var(--text-primary);
-  border: 2px solid var(--border-primary);
+  color: var(--accent-primary);
+  border: 2px solid var(--accent-primary);
   border-radius: 12px;
   padding: 14px 30px;
   font-size: 16px;
@@ -107,9 +109,9 @@ body {
 }
 
 .btn-secondary:hover {
-  border-color: var(--accent-primary);
-  color: var(--accent-primary);
-  background: var(--accent-bg);
+  border-color: var(--accent-hover);
+  color: var(--bg-primary);
+  background: var(--accent-primary);
   transform: translateY(-1px);
 }
 
@@ -137,19 +139,20 @@ body {
 
 /* Card Components */
 .feature-card {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-subtle);
+  background: var(--bg-primary);
+  border: 1px solid var(--border-primary);
   border-radius: 16px;
   padding: 32px;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.1);
 }
 
 .feature-card:hover {
   transform: translateY(-4px);
-  border-color: var(--accent-primary);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-color: var(--accent-blue);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
 }
 
 .feature-card::before {
@@ -159,7 +162,7 @@ body {
   left: 0;
   right: 0;
   height: 2px;
-  background: var(--accent-primary);
+  background: var(--accent-blue);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -207,7 +210,7 @@ body {
 }
 
 .glow-effect {
-  box-shadow: 0 0 20px rgba(218, 255, 1, 0.3);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
 }
 
 @keyframes fade-in-up {
@@ -259,11 +262,9 @@ body {
   .display-sm { font-size: 28px; }
 }
 
-/* Glassmorphism Effect */
-.glass-effect {
-  background: rgba(38, 40, 42, 0.7);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+/* Blue gradient background for hero section */
+.hero-gradient {
+  background: linear-gradient(135deg, rgb(219, 234, 254) 0%, rgb(239, 246, 255) 100%);
 }
 
 /* Smooth scroll */
@@ -290,6 +291,7 @@ html {
   z-index: 1000;
   opacity: 0;
   transform: translateY(20px);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
 }
 
 .back-to-top.visible {
@@ -299,5 +301,5 @@ html {
 
 .back-to-top:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(218, 255, 1, 0.4);
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.2);
 }

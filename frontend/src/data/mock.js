@@ -126,19 +126,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI-Driven Business Process Automation",
-    subtitle: "Workflow Optimization with ChatGPT Integration",
-    duration: "Ongoing",
-    tags: ["AI", "Process Automation", "ChatGPT", "Efficiency"],
-    problem: "Manual documentation and requirement gathering processes were time-intensive and prone to inconsistencies.",
-    approach: "Implemented AI-powered prompt engineering strategies to automate documentation, requirement analysis, and stakeholder communication workflows.",
-    outcome: "Reduced documentation time by 60%, improved requirement accuracy, and enhanced client communication efficiency through AI-assisted analysis.",
+    title: "Experience Cloud Portal Wireframe Design",
+    subtitle: "UI/UX Collaboration & Business Analysis",
+    duration: "January 2024 - March 2024",
+    tags: ["Experience Cloud", "Wireframes", "UI/UX Design", "Business Analysis"],
+    problem: "Client needed intuitive Experience Cloud portals but lacked clear user experience direction and technical requirements for different user personas.",
+    approach: "Designed comprehensive wireframes for Experience Cloud portals, collaborated closely with UI/UX designers to translate business requirements into user-friendly interfaces, conducted stakeholder workshops to validate user journeys, and created detailed functional specifications.",
+    outcome: "Delivered pixel-perfect wireframes that guided successful portal development, improved user adoption by 80%, and established design patterns reused across multiple client projects.",
     metrics: {
-      "Time Reduction": "60%",
-      "Documentation Quality": "85%",
-      "Client Satisfaction": "92%"
+      "User Adoption": "80%",
+      "Design Efficiency": "60%",
+      "Stakeholder Satisfaction": "98%"
     },
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
+    image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=400&fit=crop"
   }
 ];
 
@@ -148,24 +148,21 @@ export const services = [
     title: "Salesforce Implementation",
     description: "End-to-end Salesforce implementation with custom workflows, integrations, and user training.",
     features: ["Custom Configuration", "Data Migration", "User Training", "Integration Setup"],
-    icon: "Settings",
-    price: "Starting from ₹2,50,000"
+    icon: "Settings"
   },
   {
     id: 2,
     title: "Business Process Optimization",
     description: "Analyze and optimize your business processes using Agile methodologies and modern tools.",
     features: ["Process Analysis", "Workflow Design", "Documentation", "Change Management"],
-    icon: "TrendingUp",
-    price: "Starting from ₹1,50,000"
+    icon: "TrendingUp"
   },
   {
     id: 3,
     title: "AI-Powered Training",
     description: "Train your team on AI tools, prompt engineering, and modern business analysis techniques.",
     features: ["ChatGPT Training", "Prompt Engineering", "AI Workshops", "Custom Solutions"],
-    icon: "Brain",
-    price: "Starting from ₹75,000"
+    icon: "Brain"
   }
 ];
 
