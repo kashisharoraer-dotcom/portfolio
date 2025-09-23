@@ -540,15 +540,12 @@ const Portfolio = () => {
                 Salesforce Business Analyst specializing in transforming complex business requirements 
                 into scalable, user-centric CRM solutions.
               </p>
-              <div className="flex gap-4">
+                <div className="flex gap-4">
                 <a href={`mailto:${personalInfo.email}`} className="btn-ghost hover-lift">
                   <Mail size={20} />
                 </a>
                 <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer" className="btn-ghost hover-lift">
                   <Linkedin size={20} />
-                </a>
-                <a href={`tel:${personalInfo.phone}`} className="btn-ghost hover-lift">
-                  <Phone size={20} />
                 </a>
               </div>
             </div>
