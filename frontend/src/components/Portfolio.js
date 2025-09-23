@@ -468,7 +468,7 @@ const Portfolio = () => {
                 </div>
               </div>
               
-              <div className="mt-12 flex flex-col sm:flex-row gap-4">
+                <div className="mt-12 flex flex-col sm:flex-row gap-4">
                 <a href={`mailto:${personalInfo.email}`} className="btn-primary hover-lift">
                   <Mail size={20} />
                   Send Email
