@@ -459,16 +459,6 @@ const Portfolio = () => {
                 
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center glass-card" style={{ backgroundColor: 'var(--accent-blue-bg)' }}>
-                    <Phone size={24} style={{ color: 'var(--accent-blue)' }} />
-                  </div>
-                  <div>
-                    <p className="body-sm" style={{ color: 'var(--text-muted)' }}>Phone</p>
-                    <p className="body-md">{personalInfo.phone}</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center glass-card" style={{ backgroundColor: 'var(--accent-blue-bg)' }}>
                     <Linkedin size={24} style={{ color: 'var(--accent-blue)' }} />
                   </div>
                   <div>
