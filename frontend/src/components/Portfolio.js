@@ -140,9 +140,6 @@ const Portfolio = () => {
               <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer" className="btn-ghost hover-lift">
                 <Linkedin size={20} />
               </a>
-              <a href={`tel:${personalInfo.phone}`} className="btn-ghost hover-lift">
-                <Phone size={20} />
-              </a>
             </div>
           </div>
         </div>
