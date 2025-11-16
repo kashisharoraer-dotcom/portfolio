@@ -28,7 +28,7 @@ The following mock data in `/app/frontend/src/data/mock.js` needs backend integr
   - **Payload**: `{ name, email, projectType, message }`
   - **Response**: `{ success: boolean, message: string }`
 
-### 5. Projects (Case Studies)
+### 5. Projects git commit -m "first commit"
 - **Current State**: Static mock data with project details
 - **Backend Enhancement**: Optional CMS-like functionality
 - **Potential API**: 
