@@ -2,7 +2,7 @@
 export const personalInfo = {
   name: "Kashish Arora",
   title: "Salesforce Business Analyst",
-  bio: "Salesforce Business Analyst with expertise in Sales Cloud and Service Cloud. Focuses on delivering user-centric CRM solutions. Skilled in client communication, discovery workshops, documentation, and Agile project/sprint planning.",
+  bio: "Salesforce Business Analyst managing multiple projects across different Salesforce Clouds. I handle end-to-end client communication, build strong working relationships, and coordinate effectively with cross-functional teams. I use various project-management tools to track delivery and ensure alignment. I’ve led discovery workshops, contributed to technical solutioning, and translated requirements into clear, actionable user stories.",
   email: "kashisharora.er@gmail.com",
   phone: "+91-8290424089",
   linkedin: "https://linkedin.com/in/kashisharorasalesforce",
@@ -50,11 +50,11 @@ export const experience = [
     duration: "March 2024 - Present",
     location: "Office",
     achievements: [
-      "Leads requirement gathering sessions and discovery workshops for complex Salesforce implementations",
-      "Translates business requirements into user stories, process flows, and technical documentation",
-      "Drives Agile execution with cross-functional teams using JIRA and Zoho Projects",
-      "Utilizes AI tools (ChatGPT, Gemini, Perplexity) to streamline business analysis processes"
-    ]
+      "Led requirement-gathering and discovery sessions to identify business challenges and define solution approaches"
+"Designed end-to-end process flows, data models, and functional specifications for onboarding, loan lifecycle journeys, deduplication logic, and operational workflows"
+"Created detailed user stories, BRDs, training guides, UAT scenarios, and post-deployment documentation"
+"Collaborated with cross-functional teams (10+ members) to ensure seamless sprint planning, execution, and release management"
+"Supported multiple projects simultaneously, managing stakeholder expectations and maintaining clear communication"
   },
   {
     id: 2,
@@ -73,7 +73,7 @@ export const experience = [
 export const education = [
   {
     degree: "BTech in Electronics and Communication",
-    institution: "Rajasthan Technical University",
+    institution: "Swami Keshwanand Institute Of Technology",
     duration: "2020-2024",
     type: "Bachelor's Degree"
   },
@@ -86,6 +86,7 @@ export const education = [
 ];
 
 export const certifications = [
+  "Generative AI Mastermind"
   "Salesforce AI Associate",
   "Business Analysis and Process Management (Coursera)",
   "Jira Fundamentals & Work Management (Atlassian)",
@@ -98,26 +99,24 @@ export const certifications = [
 export const projects = [
   {
     id: 1,
-    title: "Salesforce Financial Services Cloud Implementation",
-    subtitle: "Experience Cloud Portals Development",
-    duration: "February 2025 - Present",
+    title: "Loan Provider System Implementation"
+    duration: "Octiber 2024 - May 2025",
     tags: ["Salesforce FSC", "Experience Cloud", "Business Analysis", "UX Design"],
     problem: "Financial services client needed dual Experience Cloud portals to serve different customer segments with complex data flows and user journeys.",
     approach: "Led coordination between development and UX teams, authored comprehensive BRD, created process maps, and designed end-to-end user flows with custom email templates.",
     outcome: "Successfully delivered two fully functional portals with seamless user experience, reducing customer service requests by 40% and improving client satisfaction scores.",
     metrics: {
-      "User Satisfaction": "95%",
-      "Implementation Time": "6 months",
-      "Cost Savings": "$150K annually"
+      "User Satisfaction": "88%",
+      "Implementation Time": "8 months",
+      
     },
     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=400&fit=crop"
   },
   {
     id: 2,
-    title: "Salesforce Sales Cloud Optimization",
-    subtitle: "Enterprise CRM Transformation",
-    duration: "September 2024 - January 2025",
-    tags: ["Sales Cloud", "Process Optimization", "Agile", "Data Migration"],
+    title: "Public Grant Application and Case Management Enhancement",
+    duration: "July 2025 - Present",
+    tags: ["Sales Cloud", "Process Optimization", "Agile",],
     problem: "Enterprise client had fragmented sales processes across multiple systems, leading to data silos and reduced productivity.",
     approach: "Facilitated discovery workshops, authored detailed user stories, defined custom matching algorithms, and managed sprint planning with cross-functional teams.",
     outcome: "Unified sales processes increased team productivity by 35%, improved data accuracy by 90%, and streamlined lead-to-opportunity conversion.",
