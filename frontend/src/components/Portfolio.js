@@ -154,7 +154,7 @@ const Portfolio = () => {
              I am a Salesforce Business Analyst with hands-on experience leading end-to-end project delivery across multiple Salesforce Clouds for non-profit, government, and manufacturing clients. I specialize in translating complex business requirements into scalable, user-focused Salesforce solutions that improve processes, reduce manual work, and enhance overall productivity.
 
             I have led discovery workshops, mapped business processes, and converted requirements into clear user stories, BRDs, acceptance criteria, and solution documents. Working in Agile environments, I manage full delivery cycles, coordinating with developers, designers, QA teams, and clients to ensure every sprint lands on time and aligns with the business goals.
-
+            </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
