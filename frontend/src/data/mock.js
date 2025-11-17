@@ -6,7 +6,8 @@ export const personalInfo = {
   email: "kashisharora.er@gmail.com",
   phone: "+91-8290424089",
   linkedin: "https://linkedin.com/in/kashisharorasalesforce",
-  resumeUrl: "/resume.pdf",
+  // resumeUrl: "/resume.pdf",
+  resumeUrl: "https://drive.google.com/file/d/14U1Yj3uHO76MkmX4_mJ5LTbGrvaFtu8h/view?usp=drivesdk",
   calendlyUrl: "https://calendly.com/kashisharora"
 };
 
