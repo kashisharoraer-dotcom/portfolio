@@ -151,10 +151,10 @@ const Portfolio = () => {
           <div className="text-center mb-16">
             <h2 className="h1 mb-6 animate-fade-in">About Me</h2>
             <p className="body-lg max-w-3xl mx-auto animate-fade-in">
-              Passionate about transforming complex business requirements into scalable Salesforce solutions. 
-              With expertise in both technical implementation and stakeholder management, I bridge the gap 
-              between business needs and technology solutions.
-            </p>
+             I am a Salesforce Business Analyst with hands-on experience leading end-to-end project delivery across multiple Salesforce Clouds for non-profit, government, and manufacturing clients. I specialize in translating complex business requirements into scalable, user-focused Salesforce solutions that improve processes, reduce manual work, and enhance overall productivity.
+
+            I have led discovery workshops, mapped business processes, and converted requirements into clear user stories, BRDs, acceptance criteria, and solution documents. Working in Agile environments, I manage full delivery cycles, coordinating with developers, designers, QA teams, and clients to ensure every sprint lands on time and aligns with the business goals.
+
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -162,35 +162,20 @@ const Portfolio = () => {
               <h3 className="h3 mb-6">Professional Journey</h3>
               <p className="body-md mb-6">
                 
-I am a Salesforce Business Analyst with hands-on experience leading end-to-end project delivery across multiple Salesforce Clouds for non-profit, government, and manufacturing clients. I specialize in translating complex business requirements into scalable, user-focused Salesforce solutions that improve processes, reduce manual work, and enhance overall productivity.
 
-I have led discovery workshops, mapped business processes, and converted requirements into clear user stories, BRDs, acceptance criteria, and solution documents. Working in Agile environments, I manage full delivery cycles, coordinating with developers, designers, QA teams, and clients to ensure every sprint lands on time and aligns with the business goals.
-
-Key Contributions & Impact:
-
-Led requirement-gathering and discovery sessions to identify business challenges and define solution approaches
-
-Designed end-to-end process flows, data models, and functional specifications for onboarding, loan lifecycle journeys, deduplication logic, and operational workflows
-
-Created detailed user stories, BRDs, training guides, UAT scenarios, and post-deployment documentation
-
-Collaborated with cross-functional teams (10+ members) to ensure seamless sprint planning, execution, and release management
-
-Supported multiple projects simultaneously, managing stakeholder expectations and maintaining clear communication
-
-Ensured solutions were scalable, user-friendly, and aligned with both technical constraints and business objectives
-
-Used tools like Jira, Zoho Projects to track progress, ensure traceability, and maintain delivery accountability
-
-I like bringing clarity to complex requirements, breaking down flows step-by-step, and making sure everyone: users, tech team, and business, is on the same page.
-
-I enjoy being the bridge between people and processes, and making sure the solution isn’t just built, but built right.
+Led requirement-gathering and discovery sessions to identify business challenges and define solution approaches.
+Designed end-to-end process flows, data models, and functional specifications for onboarding, loan lifecycle journeys, deduplication logic, and operational workflows.
+Created detailed user stories, BRDs, training guides, UAT scenarios, and post-deployment documentation.
+Collaborated with cross-functional teams (10+ members) to ensure seamless sprint planning, execution, and release management.
+Supported multiple projects simultaneously, managing stakeholder expectations and maintaining clear communication.
+Ensured solutions were scalable, user-friendly, and aligned with both technical constraints and business objectives.
+Used tools like Jira, Zoho Projects to track progress, ensure traceability, and maintain delivery accountability.
 
 
               </p>
               <p className="body-md mb-8">
-                I'm passionate about leveraging AI tools like ChatGPT and Gemini to streamline business analysis 
-                processes, making documentation more efficient and stakeholder communication more effective.
+                I like bringing clarity to complex requirements, breaking down flows step-by-step, and making sure everyone: users, tech team, and business, is on the same page.
+                I enjoy being the bridge between people and processes, and making sure the solution isn’t just built, but built right.
               </p>
               
               <div className="grid grid-cols-2 gap-8">
@@ -199,7 +184,7 @@ I enjoy being the bridge between people and processes, and making sure the solut
                   <p className="body-sm">Certifications</p>
                 </div>
                 <div className="glass-card text-center hover-lift">
-                  <h4 className="h4 mb-2" style={{ color: 'var(--accent-blue)' }}>1+</h4>
+                  <h4 className="h4 mb-2" style={{ color: 'var(--accent-blue)' }}>1.5+</h4>
                   <p className="body-sm">Years Experience</p>
                 </div>
               </div>
