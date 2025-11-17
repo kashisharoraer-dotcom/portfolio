@@ -50,10 +50,10 @@ export const experience = [
     duration: "March 2024 - Present",
     location: "Office",
     achievements: [
-      "Led requirement-gathering and discovery sessions to identify business challenges and define solution approaches"
-"Designed end-to-end process flows, data models, and functional specifications for onboarding, loan lifecycle journeys, deduplication logic, and operational workflows"
-"Created detailed user stories, BRDs, training guides, UAT scenarios, and post-deployment documentation"
-"Collaborated with cross-functional teams (10+ members) to ensure seamless sprint planning, execution, and release management"
+      "Led requirement-gathering and discovery sessions to identify business challenges and define solution approaches",
+"Designed end-to-end process flows, data models, and functional specifications for onboarding, loan lifecycle journeys, deduplication logic, and operational workflows",
+"Created detailed user stories, BRDs, training guides, UAT scenarios, and post-deployment documentation",
+"Collaborated with cross-functional teams (10+ members) to ensure seamless sprint planning, execution, and release management",
 "Supported multiple projects simultaneously, managing stakeholder expectations and maintaining clear communication"
       ]
   },
