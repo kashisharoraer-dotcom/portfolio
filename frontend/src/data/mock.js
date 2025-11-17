@@ -55,6 +55,7 @@ export const experience = [
 "Created detailed user stories, BRDs, training guides, UAT scenarios, and post-deployment documentation"
 "Collaborated with cross-functional teams (10+ members) to ensure seamless sprint planning, execution, and release management"
 "Supported multiple projects simultaneously, managing stakeholder expectations and maintaining clear communication"
+      ]
   },
   {
     id: 2,
@@ -86,7 +87,7 @@ export const education = [
 ];
 
 export const certifications = [
-  "Generative AI Mastermind"
+  "Generative AI Mastermind",
   "Salesforce AI Associate",
   "Business Analysis and Process Management (Coursera)",
   "Jira Fundamentals & Work Management (Atlassian)",
@@ -99,7 +100,7 @@ export const certifications = [
 export const projects = [
   {
     id: 1,
-    title: "Loan Provider System Implementation"
+    title: "Loan Provider System Implementation",
     duration: "Octiber 2024 - May 2025",
     tags: ["Salesforce FSC", "Experience Cloud", "Business Analysis", "UX Design"],
     problem: "Financial services client needed dual Experience Cloud portals to serve different customer segments with complex data flows and user journeys.",
