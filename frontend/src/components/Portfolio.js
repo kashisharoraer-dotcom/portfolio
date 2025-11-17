@@ -161,9 +161,32 @@ const Portfolio = () => {
             <div className="animate-fade-in">
               <h3 className="h3 mb-6">Professional Journey</h3>
               <p className="body-md mb-6">
-                Currently serving as a Business Analyst at Cyntexa Labs, I specialize in Salesforce implementations, 
-                particularly in Financial Services Cloud and Sales Cloud. My background in Electronics and Communication 
-                Engineering provides a strong technical foundation for understanding complex system integrations.
+                
+I am a Salesforce Business Analyst with hands-on experience leading end-to-end project delivery across multiple Salesforce Clouds for non-profit, government, and manufacturing clients. I specialize in translating complex business requirements into scalable, user-focused Salesforce solutions that improve processes, reduce manual work, and enhance overall productivity.
+
+I have led discovery workshops, mapped business processes, and converted requirements into clear user stories, BRDs, acceptance criteria, and solution documents. Working in Agile environments, I manage full delivery cycles, coordinating with developers, designers, QA teams, and clients to ensure every sprint lands on time and aligns with the business goals.
+
+Key Contributions & Impact:
+
+Led requirement-gathering and discovery sessions to identify business challenges and define solution approaches
+
+Designed end-to-end process flows, data models, and functional specifications for onboarding, loan lifecycle journeys, deduplication logic, and operational workflows
+
+Created detailed user stories, BRDs, training guides, UAT scenarios, and post-deployment documentation
+
+Collaborated with cross-functional teams (10+ members) to ensure seamless sprint planning, execution, and release management
+
+Supported multiple projects simultaneously, managing stakeholder expectations and maintaining clear communication
+
+Ensured solutions were scalable, user-friendly, and aligned with both technical constraints and business objectives
+
+Used tools like Jira, Zoho Projects to track progress, ensure traceability, and maintain delivery accountability
+
+I like bringing clarity to complex requirements, breaking down flows step-by-step, and making sure everyone: users, tech team, and business, is on the same page.
+
+I enjoy being the bridge between people and processes, and making sure the solution isn’t just built, but built right.
+
+
               </p>
               <p className="body-md mb-8">
                 I'm passionate about leveraging AI tools like ChatGPT and Gemini to streamline business analysis 
@@ -327,10 +350,7 @@ const Portfolio = () => {
                 </div>
                 
                 <div className="mt-auto">
-                  <button className="btn-secondary w-full hover-lift">
-                    Get Started
-                    <ArrowRight size={16} />
-                  </button>
+                  
                 </div>
               </div>
             ))}
@@ -382,11 +402,7 @@ const Portfolio = () => {
                     </div>
                   ))}
                 </div>
-                
-                <Link to={`/project/${project.id}`} className="btn-ghost w-full hover-lift">
-                  View Case Study
-                  <ExternalLink size={16} />
-                </Link>
+
               </div>
             ))}
           </div>
@@ -424,7 +440,7 @@ const Portfolio = () => {
               </a>
               <div className="mt-8">
                 <p className="body-sm" style={{ color: 'var(--text-muted)' }}>
-                  🌟 7+ Professional Certifications | 1+ Years Experience | 50+ Connections
+                  🌟 7+ Professional Certifications | 1.5+ Years Experience | 50+ Connections
                 </p>
               </div>
             </div>
