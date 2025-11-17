@@ -7,7 +7,7 @@ export const personalInfo = {
   phone: "+91-8290424089",
   linkedin: "https://linkedin.com/in/kashisharorasalesforce",
   // resumeUrl: "/resume.pdf",
-  resumeUrl: "https://drive.google.com/file/d/1V87BP29sO6Rvz2fJsmrxOnTYEQg-sggG",
+  resumeUrl: "https://drive.google.com/file/d/1Ad-xjDxxvFwtF3jivk6QKmvJj2j9fXcW/view?usp=drivesdk",
   calendlyUrl: "https://calendly.com/kashisharora"
 };
 
