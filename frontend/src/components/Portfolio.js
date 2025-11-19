@@ -118,6 +118,8 @@ const Portfolio = () => {
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
               <a
                 href={`mailto:${personalInfo.email}`}
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="btn-primary hover-lift"
               >
                 <Calendar size={20} />
