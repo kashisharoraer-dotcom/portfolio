@@ -434,102 +434,102 @@ Used tools like Jira, Zoho Projects to track progress, ensure traceability, and 
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="pad-2xl">
-        <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="h1 mb-6">Let's Work Together</h2>
-            <p className="body-lg max-w-2xl mx-auto">
-              Ready to transform your business processes with Salesforce? Let's discuss your project.
-            </p>
-          </div>
+      // <section id="contact" className="pad-2xl">
+      //   <div className="container">
+      //     <div className="text-center mb-16">
+      //       <h2 className="h1 mb-6">Let's Work Together</h2>
+      //       <p className="body-lg max-w-2xl mx-auto">
+      //         Ready to transform your business processes with Salesforce? Let's discuss your project.
+      //       </p>
+      //     </div>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div className="feature-card hover-lift">
-              <h3 className="h3 mb-8">Get in Touch</h3>
+      //     <div className="grid lg:grid-cols-2 gap-12 items-start">
+      //       <div className="feature-card hover-lift">
+      //         <h3 className="h3 mb-8">Get in Touch</h3>
               
-              <div className="space-y-6">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center glass-card" style={{ backgroundColor: 'var(--accent-blue-bg)' }}>
-                    <Mail size={24} style={{ color: 'var(--accent-blue)' }} />
-                  </div>
-                  <div>
-                    <p className="body-sm" style={{ color: 'var(--text-muted)' }}>Email</p>
-                    <p className="body-md">{personalInfo.email}</p>
-                  </div>
-                </div>
+      //         <div className="space-y-6">
+      //           <div className="flex items-center gap-4">
+      //             <div className="w-12 h-12 rounded-lg flex items-center justify-center glass-card" style={{ backgroundColor: 'var(--accent-blue-bg)' }}>
+      //               <Mail size={24} style={{ color: 'var(--accent-blue)' }} />
+      //             </div>
+      //             <div>
+      //               <p className="body-sm" style={{ color: 'var(--text-muted)' }}>Email</p>
+      //               <p className="body-md">{personalInfo.email}</p>
+      //             </div>
+      //           </div>
                 
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center glass-card" style={{ backgroundColor: 'var(--accent-blue-bg)' }}>
-                    <Linkedin size={24} style={{ color: 'var(--accent-blue)' }} />
-                  </div>
-                  <div>
-                    <p className="body-sm" style={{ color: 'var(--text-muted)' }}>LinkedIn</p>
-                    <p className="body-md">Connect with me</p>
-                  </div>
-                </div>
-              </div>
+      //           <div className="flex items-center gap-4">
+      //             <div className="w-12 h-12 rounded-lg flex items-center justify-center glass-card" style={{ backgroundColor: 'var(--accent-blue-bg)' }}>
+      //               <Linkedin size={24} style={{ color: 'var(--accent-blue)' }} />
+      //             </div>
+      //             <div>
+      //               <p className="body-sm" style={{ color: 'var(--text-muted)' }}>LinkedIn</p>
+      //               <p className="body-md">Connect with me</p>
+      //             </div>
+      //           </div>
+      //         </div>
               
-                <div className="mt-12 flex flex-col sm:flex-row gap-4">
-                <a href={`mailto:${personalInfo.email}`} className="btn-primary hover-lift">
-                  <Mail size={20} />
-                  Send Email
-                </a>
-                <a href={personalInfo.calendlyUrl} className="btn-secondary hover-lift">
-                  <Calendar size={20} />
-                  Schedule Call
-                </a>
-              </div>
-            </div>
+      //           <div className="mt-12 flex flex-col sm:flex-row gap-4">
+      //           <a href={`mailto:${personalInfo.email}`} className="btn-primary hover-lift">
+      //             <Mail size={20} />
+      //             Send Email
+      //           </a>
+      //           <a href={personalInfo.calendlyUrl} className="btn-secondary hover-lift">
+      //             <Calendar size={20} />
+      //             Schedule Call
+      //           </a>
+      //         </div>
+      //       </div>
             
-            <div className="feature-card hover-lift">
-              <h3 className="h3 mb-6">Quick Contact</h3>
-              <form className="space-y-6">
-                <div>
-                  <label className="block body-sm mb-2">Name *</label>
-                  <input 
-                    type="text" 
-                    className="input-field"
-                    placeholder="Your full name"
-                  />
-                </div>
+      //       <div className="feature-card hover-lift">
+      //         <h3 className="h3 mb-6">Quick Contact</h3>
+      //         <form className="space-y-6">
+      //           <div>
+      //             <label className="block body-sm mb-2">Name *</label>
+      //             <input 
+      //               type="text" 
+      //               className="input-field"
+      //               placeholder="Your full name"
+      //             />
+      //           </div>
                 
-                <div>
-                  <label className="block body-sm mb-2">Email *</label>
-                  <input 
-                    type="email" 
-                    className="input-field"
-                    placeholder="your.email@company.com"
-                  />
-                </div>
+      //           <div>
+      //             <label className="block body-sm mb-2">Email *</label>
+      //             <input 
+      //               type="email" 
+      //               className="input-field"
+      //               placeholder="your.email@company.com"
+      //             />
+      //           </div>
                 
-                <div>
-                  <label className="block body-sm mb-2">Project Type</label>
-                  <select className="input-field">
-                    <option>Salesforce Implementation</option>
-                    <option>Business Process Optimization</option>
-                    <option>AI Training & Consulting</option>
-                    <option>Other</option>
-                  </select>
-                </div>
+      //           <div>
+      //             <label className="block body-sm mb-2">Project Type</label>
+      //             <select className="input-field">
+      //               <option>Salesforce Implementation</option>
+      //               <option>Business Process Optimization</option>
+      //               <option>AI Training & Consulting</option>
+      //               <option>Other</option>
+      //             </select>
+      //           </div>
                 
-                <div>
-                  <label className="block body-sm mb-2">Message *</label>
-                  <textarea 
-                    rows={4}
-                    className="input-field"
-                    placeholder="Tell me about your project requirements..."
-                  ></textarea>
-                </div>
+      //           <div>
+      //             <label className="block body-sm mb-2">Message *</label>
+      //             <textarea 
+      //               rows={4}
+      //               className="input-field"
+      //               placeholder="Tell me about your project requirements..."
+      //             ></textarea>
+      //           </div>
                 
-                <button type="submit" className="btn-primary w-full hover-lift">
-                  Send Message
-                  <ArrowRight size={20} />
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+      //           <button type="submit" className="btn-primary w-full hover-lift">
+      //             Send Message
+      //             <ArrowRight size={20} />
+      //           </button>
+      //         </form>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </section>
 
       {/* Footer */}
       <footer className="pad-2xl border-t" style={{ borderColor: 'var(--border-subtle)', backgroundColor: 'var(--bg-secondary)' }}>
