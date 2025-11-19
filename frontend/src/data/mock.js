@@ -105,10 +105,9 @@ export const projects = [
     tags: ["Salesforce FSC", "Experience Cloud", "Business Analysis", "UX Design"],
     problem: "Financial services client needed dual Experience Cloud portals to serve different customer segments with complex data flows and user journeys.",
     approach: "Led coordination between development and UX teams, authored comprehensive BRD, created process maps, and designed end-to-end user flows with custom email templates.",
-    outcome: "Successfully delivered two fully functional portals with seamless user experience, reducing customer service requests by 40% and improving client satisfaction scores.",
+    outcome: "Prepared feature lists and user stories, dividing processes into multiple phases and milestones to ensure timely delivery.Created the project plan and coordinated a cross-functional team, fostering collaboration and improving delivery efficiency.Conducted in-person client workshops to provide solution understanding and enhance stakeholder engagement.",
     metrics: {
-      "User Satisfaction": "88%",
-      "Implementation Time": "8 months",
+      "User Satisfaction": "88%"
       
     },
     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=400&fit=crop"
@@ -120,27 +119,24 @@ export const projects = [
     tags: ["Sales Cloud", "Process Optimization", "Agile",],
     problem: "Enterprise client had fragmented sales processes across multiple systems, leading to data silos and reduced productivity.",
     approach: "Facilitated discovery workshops, authored detailed user stories, defined custom matching algorithms, and managed sprint planning with cross-functional teams.",
-    outcome: "Unified sales processes increased team productivity by 35%, improved data accuracy by 90%, and streamlined lead-to-opportunity conversion.",
+    outcome: "-Collaborated with business stakeholders to finalize requirements for application form functionality, case handling enhancements, and automation triggers.Coordinated with Salesforce developers and technical leads on the design and development of LWC components to ensure usability, scalability, and compliance with best practices.",
     metrics: {
-      "Productivity Increase": "35%",
-      "Data Accuracy": "90%",
-      "Process Efficiency": "50%"
+      "Productivity Increase": "35%"
+
     },
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop"
   },
   {
     id: 3,
-    title: "Experience Cloud Portal Wireframe Design",
-    subtitle: "UI/UX Collaboration & Business Analysis",
-    duration: "January 2024 - March 2024",
+    title: "Customer Account Creation & Duplicate Management",
+    duration: "June 2024 - September 2024",
     tags: ["Experience Cloud", "Wireframes", "UI/UX Design", "Business Analysis"],
-    problem: "Client needed intuitive Experience Cloud portals but lacked clear user experience direction and technical requirements for different user personas.",
-    approach: "Designed comprehensive wireframes for Experience Cloud portals, collaborated closely with UI/UX designers to translate business requirements into user-friendly interfaces, conducted stakeholder workshops to validate user journeys, and created detailed functional specifications.",
-    outcome: "Delivered pixel-perfect wireframes that guided successful portal development, improved user adoption by 80%, and established design patterns reused across multiple client projects.",
+    problem: "Client have disaggregate data and wants to avoid the deduplicacy in new account creation and  wants a intuitive UI for New account creation and an approval process.",
+    approach: "Analyzed existing account creation gaps and identified root causes of duplicate and inconsistent customer records.",
+    outcome: "Delivered pixel-perfect wireframes that guided successful portal development, improved user adoption by 80%, and established design patterns reused across multiple client projects. Established standardized naming and address conventions to ensure consistent account creation",
     metrics: {
-      "User Adoption": "80%",
-      "Design Efficiency": "60%",
-      "Stakeholder Satisfaction": "98%"
+      "User Adoption": "80%"
+
     },
     image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=400&fit=crop"
   }
