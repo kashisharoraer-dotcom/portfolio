@@ -433,7 +433,7 @@ Used tools like Jira, Zoho Projects to track progress, ensure traceability, and 
         </div>
       </section>
 
-      {/* Contact Section */}
+      // {/* Contact Section */}
       // <section id="contact" className="pad-2xl">
       //   <div className="container">
       //     <div className="text-center mb-16">
@@ -531,7 +531,7 @@ Used tools like Jira, Zoho Projects to track progress, ensure traceability, and 
       //   </div>
       // </section>
 
-      {/* Footer */}
+      // {/* Footer */}
       <footer className="pad-2xl border-t" style={{ borderColor: 'var(--border-subtle)', backgroundColor: 'var(--bg-secondary)' }}>
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
